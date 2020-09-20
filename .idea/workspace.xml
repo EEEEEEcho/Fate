@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/SumOfLeftLeaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/StackTrain/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/StackTrain/ValidKuoHao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Fate/META-INF/Fate.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,26 +49,13 @@
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.MinStack">
     <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetCode.EvaluateReversePolishNotation" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MagicTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qiye.MagicTower" />
-      <module name="Fate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qiye.*" />
+          <option name="PATTERN" value="com.leetCode.StackTrain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,7 +68,20 @@
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetCode.*" />
+          <option name="PATTERN" value="com.leetCode.StackTrain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.StackTrain.MinStack" />
+      <module name="Fate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetCode.StackTrain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,7 +94,7 @@
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetCode.*" />
+          <option name="PATTERN" value="com.leetCode.StackTrain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Three" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.theswordreferstooffer.review.Three" />
+    <configuration name="ValidKuoHao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.StackTrain.ValidKuoHao" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.theswordreferstooffer.review.*" />
+          <option name="PATTERN" value="com.leetCode.StackTrain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,24 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinStack" />
+        <item itemvalue="Application.ValidKuoHao" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.EvaluateReversePolishNotation" />
         <item itemvalue="Application.MinDepthOfBinaryTree" />
-        <item itemvalue="Application.MagicTower" />
-        <item itemvalue="Application.Three" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +226,8 @@
       <workItem from="1588750688920" duration="290000" />
       <workItem from="1589204819092" duration="297000" />
       <workItem from="1589423113994" duration="138000" />
-      <workItem from="1600483792532" duration="2995000" />
+      <workItem from="1600483792532" duration="3357000" />
+      <workItem from="1600568079778" duration="4387000" />
     </task>
     <servers />
   </component>
@@ -231,104 +235,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="70" key="#Auto_Import" timestamp="1586744165866">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1600573977777">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="70" key="#Auto_Import/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1586744165866" />
-    <state x="360" y="70" key="#Project_Structure" timestamp="1582337760690">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600573977777" />
+    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1600573977777">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="360" y="70" key="#Project_Structure/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1582337760690" />
-    <state x="573" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1587985541226">
+    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600573977777" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1600573977777">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="573" y="121" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1584887206676" />
-    <state x="573" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587985541226" />
-    <state x="547" y="296" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584275621519">
+    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600573977777" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1600573977777">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="547" y="296" width="441" height="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1584275621519" />
-    <state x="604" y="308" width="387" height="207" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1587878189892">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="604" y="308" width="387" height="207" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1587878189892" />
-    <state x="464" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582528178707">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="464" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1582528178707" />
-    <state x="522" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587206128686">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="522" y="293" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1587206128686" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1589204873661">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1589204873661" />
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587984423847" />
-    <state width="1491" height="187" key="GridCell.Tab.0.bottom" timestamp="1588239932343">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="187" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1588226383135" />
-    <state width="1491" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588239932343" />
-    <state width="1491" height="187" key="GridCell.Tab.0.center" timestamp="1588239932343">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="187" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1588226383135" />
-    <state width="1491" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588239932343" />
-    <state width="1491" height="187" key="GridCell.Tab.0.left" timestamp="1588239932343">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="187" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1588226383134" />
-    <state width="1491" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588239932343" />
-    <state width="1491" height="187" key="GridCell.Tab.0.right" timestamp="1588239932343">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="187" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1588226383135" />
-    <state width="1491" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588239932343" />
-    <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1587286343734">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="260" key="GridCell.Tab.1.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1587286343734" />
-    <state width="1491" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585898439461" />
-    <state width="1491" height="260" key="GridCell.Tab.1.center" timestamp="1587286343734">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="260" key="GridCell.Tab.1.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1587286343734" />
-    <state width="1491" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585898439459" />
-    <state width="1491" height="260" key="GridCell.Tab.1.left" timestamp="1587286343733">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="260" key="GridCell.Tab.1.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1587286343733" />
-    <state width="1491" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585898439459" />
-    <state width="1491" height="260" key="GridCell.Tab.1.right" timestamp="1587286343734">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1491" height="260" key="GridCell.Tab.1.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1587286343734" />
-    <state width="1491" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585898439460" />
-    <state x="248" y="0" key="SettingsEditor" timestamp="1587631259119">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="248" y="0" key="SettingsEditor/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1587631259119" />
-    <state x="447" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589423197668">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="236" key="com.intellij.ide.util.TipDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1589423197668" />
-    <state x="447" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588238700211" />
-    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1585235270643">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="dock-window-1/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1585235270643" />
-    <state x="498" y="175" key="extract.method.dialog" timestamp="1582601127143">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="175" key="extract.method.dialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1582601127143" />
-    <state x="177" y="107" key="new project wizard" timestamp="1589423246367">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="177" y="107" key="new project wizard/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1589423246367" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587436288025">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1587436288025" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600573977777" />
   </component>
 </project>
