@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/StackTrain/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/StackTrain/QueueImiateStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/StackTrain/BackSpaceCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/StackTrain/CalPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +48,22 @@
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NextGreaterElement">
-    <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetCode.EvaluateReversePolishNotation" />
+  <component name="RunManager" selected="Application.BackSpaceCompare">
+    <configuration name="BackSpaceCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.StackTrain.BackSpaceCompare" />
+      <module name="Fate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetCode.StackTrain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.StackTrain.CalPoints" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -88,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetCode.Test" />
-      <module name="Fate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetCode.StackTrain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValidKuoHao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetCode.StackTrain.ValidKuoHao" />
       <module name="Fate" />
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BackSpaceCompare" />
+        <item itemvalue="Application.CalPoints" />
         <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.ValidKuoHao" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.EvaluateReversePolishNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +226,10 @@
       <workItem from="1600483792532" duration="3357000" />
       <workItem from="1600568079778" duration="4387000" />
       <workItem from="1600650204409" duration="4430000" />
+      <workItem from="1600656735254" duration="32000" />
+      <workItem from="1600759514436" duration="1890000" />
+      <workItem from="1600762665783" duration="328000" />
+      <workItem from="1600825565061" duration="1932000" />
     </task>
     <servers />
   </component>
@@ -233,21 +237,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1600656255159">
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1600762673906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600656255159" />
-    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1600656255159">
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600762673906" />
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom" timestamp="1600827503455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600656255159" />
-    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1600656255159">
+    <state width="1491" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600827503455" />
+    <state width="1491" height="210" key="GridCell.Tab.0.center" timestamp="1600827503455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600656255159" />
-    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1600656255159">
+    <state width="1491" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600827503455" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left" timestamp="1600827503455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600656255159" />
+    <state width="1491" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600827503455" />
+    <state width="1491" height="210" key="GridCell.Tab.0.right" timestamp="1600827503455">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600827503455" />
   </component>
 </project>
