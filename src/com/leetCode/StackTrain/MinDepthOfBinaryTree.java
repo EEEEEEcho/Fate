@@ -1,4 +1,4 @@
-package com.leetCode;
+package com.leetCode.StackTrain;
 
 import java.util.LinkedList;
 import java.util.Queue;
