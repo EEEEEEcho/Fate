@@ -1,6 +1,4 @@
-package com.leetCode;
-
-import java.util.Stack;
+package com.leetCode.StackTrain;
 
 public class SumOfLeftLeaves {
     /*

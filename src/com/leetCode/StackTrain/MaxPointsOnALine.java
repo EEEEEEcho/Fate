@@ -1,4 +1,4 @@
-package com.leetCode;
+package com.leetCode.StackTrain;
 
 /**
  * 对于给定的n个位于同一二维平面上的点，求最多能有多少个点位于同一直线上
