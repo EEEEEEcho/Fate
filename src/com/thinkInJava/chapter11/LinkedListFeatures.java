@@ -16,7 +16,7 @@ public class LinkedListFeatures {
         System.out.println("linkedList.poll() :" + linkedList.poll());
         System.out.println(linkedList);
         linkedList.add("Hello");
-        System.out.println("linkedList after addFirst() :" + linkedList);
+        System.out.println("linkedList after add() :" + linkedList);
         linkedList.offer("World");
         System.out.println("linkedList after offer() :" + linkedList);
         linkedList.addFirst("Don't");
