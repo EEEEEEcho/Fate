@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Americano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/ArrayMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/BankTeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/BasicGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/BasicGeneratorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Breve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Cappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/CoffeeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/CountedObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/ErasureAndInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Generators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/GenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/GenericVarargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/IterableFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Latte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/RandomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/GreedyTrain/MinCostToMoveChips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/BasicBounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/ClassTypeCapture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/Erased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/GenericArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/GenericArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter15/GreatorGeneric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,20 +42,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oa_master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayMaker">
-    <configuration name="ArrayMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.ArrayMaker" />
+  <component name="RunManager" selected="Application.MinCostToMoveChips">
+    <configuration name="ClassTypeCapture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.ClassTypeCapture" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTeller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.BankTeller" />
+    <configuration name="GenericArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.GenericArray" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicGeneratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.BasicGeneratorDemo" />
+    <configuration name="GenericArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.GenericArray2" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErasureAndInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.ErasureAndInheritance" />
+    <configuration name="GreatorGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.GreatorGeneric" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -121,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter15.Store" />
+    <configuration name="MinCostToMoveChips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.GreedyTrain.MinCostToMoveChips" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thinkInJava.chapter15.*" />
+          <option name="PATTERN" value="com.leetCode.GreedyTrain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,31 +119,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BasicGeneratorDemo" />
-      <item itemvalue="Application.BankTeller" />
-      <item itemvalue="Application.Store" />
-      <item itemvalue="Application.ErasureAndInheritance" />
-      <item itemvalue="Application.ArrayMaker" />
+      <item itemvalue="Application.ClassTypeCapture" />
+      <item itemvalue="Application.GreatorGeneric" />
+      <item itemvalue="Application.GenericArray" />
+      <item itemvalue="Application.GenericArray2" />
+      <item itemvalue="Application.MinCostToMoveChips" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayMaker" />
-        <item itemvalue="Application.ErasureAndInheritance" />
-        <item itemvalue="Application.Store" />
-        <item itemvalue="Application.BankTeller" />
-        <item itemvalue="Application.BasicGeneratorDemo" />
+        <item itemvalue="Application.MinCostToMoveChips" />
+        <item itemvalue="Application.GenericArray2" />
+        <item itemvalue="Application.GenericArray" />
+        <item itemvalue="Application.GreatorGeneric" />
+        <item itemvalue="Application.ClassTypeCapture" />
       </list>
     </recent_temporary>
   </component>
@@ -293,6 +280,12 @@
       <workItem from="1602243251053" duration="1563000" />
       <workItem from="1602253682966" duration="81000" />
       <workItem from="1602293819281" duration="11900000" />
+      <workItem from="1602316468383" duration="330000" />
+      <workItem from="1602467469862" duration="4430000" />
+      <workItem from="1602500911907" duration="549000" />
+      <workItem from="1602501480850" duration="102000" />
+      <workItem from="1602501601052" duration="2841000" />
+      <workItem from="1602510442407" duration="1659000" />
     </task>
     <servers />
   </component>
@@ -300,6 +293,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="538" y="129" key="#HTTP_Proxy" timestamp="1602501236335">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="129" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1602501236334" />
     <state x="306" y="106" key="#Postfix_Completion" timestamp="1602062498363">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -318,35 +315,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602310369962" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1602253754359">
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1602512094584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602253754359" />
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602069701258" />
-    <state width="1491" height="226" key="GridCell.Tab.0.bottom" timestamp="1602316344086">
+    <state x="548" y="166" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602512094584" />
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602501650339" />
+    <state width="751" height="182" key="GridCell.Tab.0.bottom" timestamp="1602512102394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
-    <state width="1491" height="226" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602316344086" />
-    <state width="1491" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602210457031" />
-    <state width="1491" height="226" key="GridCell.Tab.0.center" timestamp="1602316344086">
+    <state width="751" height="182" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602512102394" />
+    <state width="1491" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602506078459" />
+    <state width="751" height="182" key="GridCell.Tab.0.center" timestamp="1602512102394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
-    <state width="1491" height="226" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602316344086" />
-    <state width="1491" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602210457031" />
-    <state width="1491" height="226" key="GridCell.Tab.0.left" timestamp="1602316344086">
+    <state width="751" height="182" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602512102394" />
+    <state width="1491" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602506078458" />
+    <state width="751" height="182" key="GridCell.Tab.0.left" timestamp="1602512102394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
-    <state width="1491" height="226" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602316344086" />
-    <state width="1491" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602210457031" />
-    <state width="1491" height="226" key="GridCell.Tab.0.right" timestamp="1602316344086">
+    <state width="751" height="182" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602512102394" />
+    <state width="1491" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602506078457" />
+    <state width="751" height="182" key="GridCell.Tab.0.right" timestamp="1602512102394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
-    <state width="1491" height="226" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602316344086" />
-    <state width="1491" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602210457031" />
+    <state width="751" height="182" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602512102394" />
+    <state width="1491" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602506078458" />
     <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1601794491776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -363,6 +360,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601794491776" />
+    <state x="269" y="56" key="SettingsEditor" timestamp="1602501585608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="269" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602501585608" />
     <state x="177" y="21" key="new project wizard" timestamp="1602253759056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
