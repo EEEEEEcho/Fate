@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/GreedyTrain/BalancedStringSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/CommonChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/Intersect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/Intersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/IsAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/ArrayOfGenerics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/ArrayOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/BerylliumSphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/CountingGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/GeneratorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/ParameterizeArrayType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/RaggedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/RandomGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/RandomGeneratorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/ThreeDWithNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/SortArrayByParityII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/AlphabeticSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/ArraySearching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/CompType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/ComparingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/ConvertTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/CopyingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/Generated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter16/StringSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter17/CollectionData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter17/CollectionDataGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter17/CollectionDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter17/FillingLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter17/MapData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter17/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oa_master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,9 +65,9 @@
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Intersect">
-    <configuration name="GeneratorsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter16.GeneratorsTest" />
+  <component name="RunManager" selected="Application.CollectionDataGeneration">
+    <configuration name="AlphabeticSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter16.AlphabeticSearch" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -76,21 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Intersect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetCode.Sort.Intersect" />
-      <module name="Fate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetCode.Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RaggedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter16.RaggedArray" />
+    <configuration name="ArraySearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter16.ArraySearching" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomGeneratorsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter16.RandomGeneratorsTest" />
+    <configuration name="CollectionDataGeneration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter17.CollectionDataGeneration" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thinkInJava.chapter16.*" />
+          <option name="PATTERN" value="com.thinkInJava.chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter16.TestClass" />
+    <configuration name="CollectionDataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter17.CollectionDataTest" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thinkInJava.chapter16.*" />
+          <option name="PATTERN" value="com.thinkInJava.chapter17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FillingLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter17.FillingLists" />
+      <module name="Fate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thinkInJava.chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +132,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RaggedArray" />
-      <item itemvalue="Application.GeneratorsTest" />
-      <item itemvalue="Application.TestClass" />
-      <item itemvalue="Application.RandomGeneratorsTest" />
-      <item itemvalue="Application.Intersect" />
+      <item itemvalue="Application.ArraySearching" />
+      <item itemvalue="Application.AlphabeticSearch" />
+      <item itemvalue="Application.FillingLists" />
+      <item itemvalue="Application.CollectionDataTest" />
+      <item itemvalue="Application.CollectionDataGeneration" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Intersect" />
-        <item itemvalue="Application.RandomGeneratorsTest" />
-        <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.GeneratorsTest" />
-        <item itemvalue="Application.RaggedArray" />
+        <item itemvalue="Application.CollectionDataGeneration" />
+        <item itemvalue="Application.CollectionDataTest" />
+        <item itemvalue="Application.FillingLists" />
+        <item itemvalue="Application.AlphabeticSearch" />
+        <item itemvalue="Application.ArraySearching" />
       </list>
     </recent_temporary>
   </component>
@@ -290,6 +293,13 @@
       <workItem from="1603072485742" duration="5350000" />
       <workItem from="1603097484510" duration="3143000" />
       <workItem from="1603105901124" duration="59000" />
+      <workItem from="1603155506017" duration="799000" />
+      <workItem from="1603171035322" duration="3482000" />
+      <workItem from="1603196669278" duration="630000" />
+      <workItem from="1603262643340" duration="2761000" />
+      <workItem from="1603352499330" duration="5826000" />
+      <workItem from="1603363026804" duration="2842000" />
+      <workItem from="1603376243083" duration="95000" />
     </task>
     <servers />
   </component>
@@ -309,12 +319,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="222" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602047719180" />
-    <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1603077698968">
+    <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1603357256406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1347" y="117" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1602294527174" />
     <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602311314849" />
-    <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603077698968" />
+    <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603357256406" />
     <state x="543" y="304" width="450" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603073996223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -324,35 +334,35 @@
     </state>
     <state x="498" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602310369962" />
     <state x="498" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603073989394" />
-    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1603105921999">
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1603376283640">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="166" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602676832575" />
-    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603105921999" />
-    <state width="1491" height="278" key="GridCell.Tab.0.bottom" timestamp="1603101146740">
+    <state x="548" y="166" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603376283640" />
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603276466100" />
+    <state width="752" height="278" key="GridCell.Tab.0.bottom" timestamp="1603359184564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603078000738" />
-    <state width="1491" height="278" key="GridCell.Tab.0.center" timestamp="1603101146740">
+    <state width="752" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
+    <state width="752" height="278" key="GridCell.Tab.0.center" timestamp="1603359184564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603078000738" />
-    <state width="1491" height="278" key="GridCell.Tab.0.left" timestamp="1603101146740">
+    <state width="752" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
+    <state width="752" height="278" key="GridCell.Tab.0.left" timestamp="1603359184563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603078000738" />
-    <state width="1491" height="278" key="GridCell.Tab.0.right" timestamp="1603101146740">
+    <state width="752" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603359184563" />
+    <state width="752" height="278" key="GridCell.Tab.0.right" timestamp="1603359184564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603078000738" />
+    <state width="752" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
     <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1601794491776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -373,17 +383,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="269" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602501585608" />
-    <state x="177" y="21" key="new project wizard" timestamp="1602253759056">
+    <state x="202" y="98" key="new project wizard" timestamp="1603376325190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="177" y="21" key="new project wizard/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602253759056" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1602057316389">
+    <state x="202" y="98" key="new project wizard/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603376325190" />
+    <state x="426" y="186" key="run.anything.popup" timestamp="1603358142200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602057316389" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603075977954">
+    <state x="426" y="186" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603358142200" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603357638201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603075977954" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603357638201" />
   </component>
 </project>
