@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/SortString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter18/DirList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/PasswordUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/SimulatingNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/Testable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/UseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/UseCaseTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/AllCellsDistOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T01_WhatIsThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T02_HowToCreateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T03_Sleep_Vield_Join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T04_ThreadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T05_Locked_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T06_Synchronized_test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T06_Synchronized_test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T08_Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T09_Synchronized_test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T10_Synchronized_test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T11_Synchronized_test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T12_Synchronized_test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fate/com/leetCode/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fate/com/leetCode/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetCode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,17 +62,20 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Fate\src\com\multiProcess\day01" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseCaseTracker">
-    <configuration name="CollectionDataGeneration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter17.CollectionDataGeneration" />
+  <component name="RunManager" selected="Application.T11_Synchronized_test5">
+    <configuration name="T03_Sleep_Vield_Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T03_Sleep_Vield_Join" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thinkInJava.chapter17.*" />
+          <option name="PATTERN" value="com.multiProcess.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter18.DirList" />
+    <configuration name="T04_ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T04_ThreadState" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thinkInJava.chapter18.*" />
+          <option name="PATTERN" value="com.multiProcess.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetCode.Sort.SortString" />
+    <configuration name="T06_Synchronized_test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T06_Synchronized_test2" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetCode.Sort.*" />
+          <option name="PATTERN" value="com.multiProcess.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetCode.Test" />
+    <configuration name="T08_Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T08_Account" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetCode.*" />
+          <option name="PATTERN" value="com.multiProcess.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseCaseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter20.UseCaseTracker" />
+    <configuration name="T11_Synchronized_test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T11_Synchronized_test5" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thinkInJava.chapter20.*" />
+          <option name="PATTERN" value="com.multiProcess.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,31 +135,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CollectionDataGeneration" />
-      <item itemvalue="Application.SortString" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.DirList" />
-      <item itemvalue="Application.UseCaseTracker" />
+      <item itemvalue="Application.T03_Sleep_Vield_Join" />
+      <item itemvalue="Application.T04_ThreadState" />
+      <item itemvalue="Application.T06_Synchronized_test2" />
+      <item itemvalue="Application.T08_Account" />
+      <item itemvalue="Application.T11_Synchronized_test5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseCaseTracker" />
-        <item itemvalue="Application.DirList" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SortString" />
-        <item itemvalue="Application.CollectionDataGeneration" />
+        <item itemvalue="Application.T11_Synchronized_test5" />
+        <item itemvalue="Application.T08_Account" />
+        <item itemvalue="Application.T06_Synchronized_test2" />
+        <item itemvalue="Application.T04_ThreadState" />
+        <item itemvalue="Application.T03_Sleep_Vield_Join" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +325,9 @@
       <workItem from="1605104834999" duration="1956000" />
       <workItem from="1605142859448" duration="3122000" />
       <workItem from="1605697936977" duration="3238000" />
+      <workItem from="1605767791749" duration="3392000" />
+      <workItem from="1605864830672" duration="4337000" />
+      <workItem from="1605955485883" duration="8893000" />
     </task>
     <servers />
   </component>
@@ -335,12 +347,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="222" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602047719180" />
-    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1605146453937">
+    <state x="510" y="217" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605960706708">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="510" y="217" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605960706708" />
+    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1605963800741">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1347" y="117" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1602294527174" />
     <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602311314849" />
-    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605146453937" />
+    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605963800741" />
     <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603357256406" />
     <state x="543" y="304" width="450" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603073996223">
       <screen x="0" y="0" width="1536" height="824" />
@@ -358,39 +374,39 @@
     <state x="548" y="168" key="FileChooserDialogImpl/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605161573465" />
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603276466100" />
     <state x="548" y="206" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1604213577547" />
-    <state width="1491" height="262" key="GridCell.Tab.0.bottom" timestamp="1605702046204">
+    <state width="1491" height="262" key="GridCell.Tab.0.bottom" timestamp="1605965451105">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="262" key="GridCell.Tab.0.bottom/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605702046204" />
+    <state width="1491" height="262" key="GridCell.Tab.0.bottom/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605965451105" />
     <state width="1491" height="295" key="GridCell.Tab.0.bottom/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
     <state width="1491" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="262" key="GridCell.Tab.0.center" timestamp="1605702046204">
+    <state width="1491" height="262" key="GridCell.Tab.0.center" timestamp="1605965451105">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="262" key="GridCell.Tab.0.center/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605702046204" />
+    <state width="1491" height="262" key="GridCell.Tab.0.center/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605965451105" />
     <state width="1491" height="295" key="GridCell.Tab.0.center/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
     <state width="1491" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="262" key="GridCell.Tab.0.left" timestamp="1605702046204">
+    <state width="1491" height="262" key="GridCell.Tab.0.left" timestamp="1605965451105">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="262" key="GridCell.Tab.0.left/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605702046204" />
+    <state width="1491" height="262" key="GridCell.Tab.0.left/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605965451105" />
     <state width="1491" height="295" key="GridCell.Tab.0.left/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603359184563" />
     <state width="1491" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="262" key="GridCell.Tab.0.right" timestamp="1605702046204">
+    <state width="1491" height="262" key="GridCell.Tab.0.right" timestamp="1605965451105">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="262" key="GridCell.Tab.0.right/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605702046204" />
+    <state width="1491" height="262" key="GridCell.Tab.0.right/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605965451105" />
     <state width="1491" height="295" key="GridCell.Tab.0.right/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
     <state width="1491" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
@@ -422,9 +438,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="426" y="186" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603358142200" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603357638201">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="431" y="147" width="672" height="687" key="search.everywhere.popup" timestamp="1605958474696">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="431" y="147" width="672" height="687" key="search.everywhere.popup/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605958474696" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603357638201" />
   </component>
 </project>
