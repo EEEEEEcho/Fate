@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/AllCellsDistOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T01_WhatIsThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T02_HowToCreateThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T03_Sleep_Vield_Join.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T04_ThreadState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T05_Locked_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T06_Synchronized_test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T06_Synchronized_test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T08_Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T09_Synchronized_test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T10_Synchronized_test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T11_Synchronized_test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/T12_Synchronized_test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day01/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/CanMakeArithmeticProgression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/MinSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/RelativeSortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/RestoreString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/Sort/SortByBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day02/T01_Volatile_test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/day02/T02_Volatile_test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/singleton/Mgr01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/singleton/Mgr03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/multiProcess/singleton/Mgr06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/SQLInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/SQLString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/UseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter20/UseCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +70,13 @@
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T11_Synchronized_test5">
-    <configuration name="T03_Sleep_Vield_Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T03_Sleep_Vield_Join" />
+  <component name="RunManager" selected="Application.RestoreString">
+    <configuration name="Mgr03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multiProcess.singleton.Mgr03" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.multiProcess.day01.*" />
+          <option name="PATTERN" value="com.multiProcess.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T04_ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T04_ThreadState" />
+    <configuration name="Mgr06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.multiProcess.singleton.Mgr06" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.multiProcess.day01.*" />
+          <option name="PATTERN" value="com.multiProcess.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T06_Synchronized_test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T06_Synchronized_test2" />
+    <configuration name="RelativeSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.Sort.RelativeSortArray" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.multiProcess.day01.*" />
+          <option name="PATTERN" value="com.leetCode.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T08_Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T08_Account" />
+    <configuration name="RestoreString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.Sort.RestoreString" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.multiProcess.day01.*" />
+          <option name="PATTERN" value="com.leetCode.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T11_Synchronized_test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.multiProcess.day01.T11_Synchronized_test5" />
+    <configuration name="SortByBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.Sort.SortByBits" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.multiProcess.day01.*" />
+          <option name="PATTERN" value="com.leetCode.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,33 +136,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.T03_Sleep_Vield_Join" />
-      <item itemvalue="Application.T04_ThreadState" />
-      <item itemvalue="Application.T06_Synchronized_test2" />
-      <item itemvalue="Application.T08_Account" />
-      <item itemvalue="Application.T11_Synchronized_test5" />
+      <item itemvalue="Application.Mgr03" />
+      <item itemvalue="Application.Mgr06" />
+      <item itemvalue="Application.RelativeSortArray" />
+      <item itemvalue="Application.SortByBits" />
+      <item itemvalue="Application.RestoreString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T11_Synchronized_test5" />
-        <item itemvalue="Application.T08_Account" />
-        <item itemvalue="Application.T06_Synchronized_test2" />
-        <item itemvalue="Application.T04_ThreadState" />
-        <item itemvalue="Application.T03_Sleep_Vield_Join" />
+        <item itemvalue="Application.RestoreString" />
+        <item itemvalue="Application.SortByBits" />
+        <item itemvalue="Application.RelativeSortArray" />
+        <item itemvalue="Application.Mgr06" />
+        <item itemvalue="Application.Mgr03" />
       </list>
     </recent_temporary>
   </component>
@@ -328,6 +327,14 @@
       <workItem from="1605767791749" duration="3392000" />
       <workItem from="1605864830672" duration="4337000" />
       <workItem from="1605955485883" duration="8893000" />
+      <workItem from="1606014083220" duration="3054000" />
+      <workItem from="1606027122631" duration="2758000" />
+      <workItem from="1606049585717" duration="4492000" />
+      <workItem from="1606093932522" duration="4316000" />
+      <workItem from="1606114167950" duration="143000" />
+      <workItem from="1606143093964" duration="2413000" />
+      <workItem from="1606266086736" duration="131000" />
+      <workItem from="1606308326393" duration="3358000" />
     </task>
     <servers />
   </component>
@@ -351,12 +358,12 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="510" y="217" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605960706708" />
-    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1605963800741">
+    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1606143842480">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1347" y="117" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1602294527174" />
     <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602311314849" />
-    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605963800741" />
+    <state x="573" y="118" key="#com.intellij.ide.util.MemberChooser/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1606143842480" />
     <state x="573" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603357256406" />
     <state x="543" y="304" width="450" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603073996223">
       <screen x="0" y="0" width="1536" height="824" />
@@ -367,48 +374,53 @@
     </state>
     <state x="498" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1602310369962" />
     <state x="498" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1603073989394" />
-    <state x="548" y="168" key="FileChooserDialogImpl" timestamp="1605161573465">
+    <state x="548" y="168" key="FileChooserDialogImpl" timestamp="1606266183338">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="166" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603376283640" />
     <state x="548" y="168" key="FileChooserDialogImpl/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605161573465" />
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603276466100" />
+    <state x="548" y="168" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606266183338" />
     <state x="548" y="206" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1604213577547" />
-    <state width="1491" height="262" key="GridCell.Tab.0.bottom" timestamp="1605965451105">
+    <state width="1491" height="279" key="GridCell.Tab.0.bottom" timestamp="1606312213310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="262" key="GridCell.Tab.0.bottom/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605965451105" />
+    <state width="1491" height="279" key="GridCell.Tab.0.bottom/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1606312213310" />
     <state width="1491" height="295" key="GridCell.Tab.0.bottom/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
+    <state width="752" height="262" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606054501316" />
     <state width="1491" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="262" key="GridCell.Tab.0.center" timestamp="1605965451105">
+    <state width="1491" height="279" key="GridCell.Tab.0.center" timestamp="1606312213310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="262" key="GridCell.Tab.0.center/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605965451105" />
+    <state width="1491" height="279" key="GridCell.Tab.0.center/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1606312213310" />
     <state width="1491" height="295" key="GridCell.Tab.0.center/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
+    <state width="752" height="262" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606054501316" />
     <state width="1491" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="262" key="GridCell.Tab.0.left" timestamp="1605965451105">
+    <state width="1491" height="279" key="GridCell.Tab.0.left" timestamp="1606312213309">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="262" key="GridCell.Tab.0.left/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605965451105" />
+    <state width="1491" height="279" key="GridCell.Tab.0.left/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1606312213309" />
     <state width="1491" height="295" key="GridCell.Tab.0.left/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603359184563" />
+    <state width="752" height="262" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606054501316" />
     <state width="1491" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="262" key="GridCell.Tab.0.right" timestamp="1605965451105">
+    <state width="1491" height="279" key="GridCell.Tab.0.right" timestamp="1606312213310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
-    <state width="1491" height="262" key="GridCell.Tab.0.right/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1605965451105" />
+    <state width="1491" height="279" key="GridCell.Tab.0.right/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1606312213310" />
     <state width="1491" height="295" key="GridCell.Tab.0.right/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
+    <state width="752" height="262" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606054501316" />
     <state width="1491" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
     <state width="1491" height="260" key="GridCell.Tab.1.bottom" timestamp="1601794491776">
       <screen x="0" y="0" width="1536" height="824" />
@@ -430,6 +442,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="269" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602501585608" />
+    <state x="572" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606114188728">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="572" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1606114188728" />
     <state x="202" y="98" key="new project wizard" timestamp="1603376325190">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
