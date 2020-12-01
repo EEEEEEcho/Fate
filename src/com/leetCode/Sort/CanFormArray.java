@@ -2,27 +2,30 @@ package com.leetCode.Sort;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 
 public class CanFormArray {
     public boolean canFormArray(int[] arr, int[][] pieces) {
-        if(pieces.length == 1 && pieces[0][0] != arr[0]){
-            return false;
+        Map<Integer,int[]> hashMap = new HashMap<>();
+        for(int i = 0;i < pieces.length;i ++){
+            hashMap.put(pieces[i][0],pieces[i]);
         }
-        Arrays.sort(pieces, new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o1[0] - o2[0];
-            }
-        });
-        Arrays.sort(arr);
-        int i = 0;
-        while (i < arr.length){
-            for(int j = 0;j < pieces.length;j ++){
-                for(Integer integer : pieces[j]){
-                    if(integer != arr[i ++]){
+        for(int i = 0;i < arr.length;){
+            int curValue = arr[i];
+            if(hashMap.containsKey(curValue)){
+                System.out.println(Arrays.toString(hashMap.get(curValue)));
+                for(int integer : hashMap.get(curValue)){
+                    if(integer == arr[i]){
+                        i ++;
+                    }
+                    else{
                         return false;
                     }
                 }
+            }
+            else{
+                return false;
             }
         }
         return true;
@@ -30,6 +33,7 @@ public class CanFormArray {
 
     public static void main(String[] args) {
         CanFormArray c = new CanFormArray();
-        c.canFormArray(new int[]{1,2,3},new int[][]{{78},{4,64},{91}});
+        boolean result = c.canFormArray(new int[]{12,21,11,22},new int[][]{{12,21},{1,2}});
+        System.out.println(result);
     }
 }
