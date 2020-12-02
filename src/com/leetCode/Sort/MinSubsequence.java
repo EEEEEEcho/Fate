@@ -12,31 +12,24 @@ public class MinSubsequence {
      * @return
      */
     public List<Integer> minSubsequence(int[] nums) {
+        int sum = 0;
+        for(int i=0;i < nums.length;i ++){
+            sum += nums[i];
+        }
         Arrays.sort(nums);
-        ArrayList<List<Integer>> results = new ArrayList<>();
-        int i = 0;
-        int j = nums.length - 1;
-        int sum1 = 0;
-        int sum2 = 0;
-        while (i < j){
-            ArrayList<Integer> arrayList = new ArrayList<>();
-            sum1 += nums[i];
-            sum2 += nums[j];
-            arrayList.add(sum2);
-            if(sum1 >= sum2){
-                results.add(arrayList);
+        int subSum = 0;
+        int index = 0;
+        for(int i = nums.length - 1;i >=0;i --){
+            subSum += nums[i];
+            if(subSum > (sum - subSum)){
+                index = i;
+                break;
             }
-            i++;
-            j--;
         }
-        if(results.size() == 1){
-            return results.get(0);
+        List<Integer> result = new ArrayList<>();
+        for(int i = nums.length - 1;i >= index; i--){
+            result.add(nums[i]);
         }
-//        else {
-//            for(int k = 0;k < results.size() - 1;k ++){
-//                if(results.get(k).size() == results.get())
-//            }
-//        }
-        return null;
+        return result;
     }
 }
