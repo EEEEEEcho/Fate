@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/BitMultiplication/IsPowerOfFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter18/BinaryFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter18/StoringAndRecoveringData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter18/TextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter18/UsingRandomAccessFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/BitMultiplication/FindTheDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fate/com/leetCode/BitMultiplication/IsPowerOfTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fate/com/leetCode/BitMultiplication/IsPowerOfTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetCode/BitMultiplication/IsPowerOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/BitMultiplication/IsPowerOfTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +55,9 @@
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextFile">
-    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetCode.BitMultiplication.HammingWeight" />
+  <component name="RunManager" selected="Application.FindTheDifference">
+    <configuration name="FindTheDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.BitMultiplication.FindTheDifference" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetCode.BitMultiplication.MissingNumber" />
+    <configuration name="HammingWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.BitMultiplication.HammingWeight" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -127,31 +121,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MissingNumber" />
       <item itemvalue="Application.HammingWeight" />
       <item itemvalue="Application.StoringAndRecoveringData" />
       <item itemvalue="Application.UsingRandomAccessFile" />
       <item itemvalue="Application.TextFile" />
+      <item itemvalue="Application.FindTheDifference" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheDifference" />
         <item itemvalue="Application.TextFile" />
         <item itemvalue="Application.UsingRandomAccessFile" />
         <item itemvalue="Application.StoringAndRecoveringData" />
         <item itemvalue="Application.HammingWeight" />
-        <item itemvalue="Application.MissingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -345,6 +341,7 @@
       <workItem from="1607089908148" duration="162000" />
       <workItem from="1607309844660" duration="3869000" />
       <workItem from="1607391025989" duration="8824000" />
+      <workItem from="1607522139498" duration="2879000" />
     </task>
     <servers />
   </component>
@@ -399,46 +396,46 @@
     <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603276466100" />
     <state x="548" y="168" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606266183338" />
     <state x="548" y="206" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1604213577547" />
-    <state width="1491" height="233" key="GridCell.Tab.0.bottom" timestamp="1607417181722">
+    <state width="1491" height="233" key="GridCell.Tab.0.bottom" timestamp="1607525027512">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.bottom/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
     <state width="1491" height="233" key="GridCell.Tab.0.bottom/-1920.0.1536.834/0.0.1536.834@-1920.0.1536.834" timestamp="1607398431920" />
-    <state width="1491" height="233" key="GridCell.Tab.0.bottom/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1607417181722" />
+    <state width="1491" height="233" key="GridCell.Tab.0.bottom/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1607525027512" />
     <state width="1491" height="295" key="GridCell.Tab.0.bottom/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
     <state width="1491" height="233" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1607312979893" />
     <state width="1491" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="233" key="GridCell.Tab.0.center" timestamp="1607417181722">
+    <state width="1491" height="233" key="GridCell.Tab.0.center" timestamp="1607525027512">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.center/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
     <state width="1491" height="233" key="GridCell.Tab.0.center/-1920.0.1536.834/0.0.1536.834@-1920.0.1536.834" timestamp="1607398431920" />
-    <state width="1491" height="233" key="GridCell.Tab.0.center/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1607417181722" />
+    <state width="1491" height="233" key="GridCell.Tab.0.center/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1607525027512" />
     <state width="1491" height="295" key="GridCell.Tab.0.center/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
     <state width="1491" height="233" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1607312979893" />
     <state width="1491" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="233" key="GridCell.Tab.0.left" timestamp="1607417181722">
+    <state width="1491" height="233" key="GridCell.Tab.0.left" timestamp="1607525027512">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.left/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
     <state width="1491" height="233" key="GridCell.Tab.0.left/-1920.0.1536.834/0.0.1536.834@-1920.0.1536.834" timestamp="1607398431920" />
-    <state width="1491" height="233" key="GridCell.Tab.0.left/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1607417181722" />
+    <state width="1491" height="233" key="GridCell.Tab.0.left/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1607525027512" />
     <state width="1491" height="295" key="GridCell.Tab.0.left/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603359184563" />
     <state width="1491" height="233" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1607312979893" />
     <state width="1491" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1603772485526" />
-    <state width="1491" height="233" key="GridCell.Tab.0.right" timestamp="1607417181722">
+    <state width="1491" height="233" key="GridCell.Tab.0.right" timestamp="1607525027512">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1491" height="158" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1601988393446" />
     <state width="1491" height="278" key="GridCell.Tab.0.right/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1603101146740" />
     <state width="1491" height="233" key="GridCell.Tab.0.right/-1920.0.1536.834/0.0.1536.834@-1920.0.1536.834" timestamp="1607398431920" />
-    <state width="1491" height="233" key="GridCell.Tab.0.right/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1607417181722" />
+    <state width="1491" height="233" key="GridCell.Tab.0.right/-1920.0.1536.834/0.0.1536.834@0.0.1536.834" timestamp="1607525027512" />
     <state width="1491" height="295" key="GridCell.Tab.0.right/-1920.40.1536.824/0.40.1536.824@0.40.1536.824" timestamp="1603610130668" />
     <state width="752" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603359184564" />
     <state width="1491" height="233" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1607312979893" />
