@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nettyTest/ServerChannelInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/test/CountdownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/IsSameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/IsSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fate/com/leetCode/BitMultiplication/HasAlternatingBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fate/com/leetCode/BitMultiplication/HasAlternatingBits.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -354,11 +360,25 @@
       <workItem from="1609809236999" duration="3525000" />
       <workItem from="1609916778131" duration="429000" />
       <workItem from="1609928488925" duration="178000" />
+      <workItem from="1613628715560" duration="1465000" />
+      <workItem from="1613743647069" duration="2206000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="538" y="129" key="#HTTP_Proxy" timestamp="1602501236335">
