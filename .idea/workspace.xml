@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/HasPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/InvertTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/MinDeepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/LowestCommonAncestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetCode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountdownLatchTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="CountdownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.test.CountdownLatchTest" />
       <module name="Fate" />
@@ -82,19 +81,6 @@
     </configuration>
     <configuration name="FindComplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetCode.BitMultiplication.FindComplement" />
-      <module name="Fate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetCode.BitMultiplication.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTheDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetCode.BitMultiplication.FindTheDifference" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
@@ -132,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.Test" />
+      <module name="Fate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -144,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindTheDifference" />
       <item itemvalue="Application.HammingDistance" />
       <item itemvalue="Application.FindComplement" />
       <item itemvalue="Application.HasAlternatingBits" />
       <item itemvalue="Application.CountdownLatchTest" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.CountdownLatchTest" />
         <item itemvalue="Application.HasAlternatingBits" />
         <item itemvalue="Application.FindComplement" />
         <item itemvalue="Application.HammingDistance" />
-        <item itemvalue="Application.FindTheDifference" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +370,11 @@
       <workItem from="1615385134845" duration="471000" />
       <workItem from="1615385651056" duration="78000" />
       <workItem from="1618206884673" duration="174000" />
-      <workItem from="1618230146829" duration="1873000" />
+      <workItem from="1618230146829" duration="2802000" />
+      <workItem from="1618293394560" duration="1201000" />
+      <workItem from="1618380879029" duration="720000" />
+      <workItem from="1619427819140" duration="883000" />
+      <workItem from="1619952596237" duration="3167000" />
     </task>
     <servers />
   </component>

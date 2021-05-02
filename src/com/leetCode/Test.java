@@ -2,6 +2,7 @@ package com.leetCode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class Test {
     public static void main(String[] args) {
@@ -21,7 +22,13 @@ public class Test {
 //        for(int i=1;i <=n;i ++){
 //            System.out.print(arr[i] + " ");
 //        }
-        String name = System.class.getSimpleName();
-        System.out.println(name);
+//        String name = System.class.getSimpleName();
+//        System.out.println(name);
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        System.out.println(stack.size());
+        stack.pop();
+        //System.out.println(stack.pop());
+        System.out.println(stack.size());
     }
 }
