@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/IsSubtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/NTreePreorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/NTreePostOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringCloudStudy/SpringCloudStudyNew" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,7 +50,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -391,6 +390,9 @@
       <workItem from="1620615684108" duration="48000" />
       <workItem from="1620697407253" duration="1421000" />
       <workItem from="1620825047272" duration="2155000" />
+      <workItem from="1620868456895" duration="1559000" />
+      <workItem from="1620889231458" duration="715000" />
+      <workItem from="1620914008064" duration="1404000" />
     </task>
     <servers />
   </component>
