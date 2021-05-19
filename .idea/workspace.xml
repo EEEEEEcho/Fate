@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/AverageOfLevels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter10/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter10/Outer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/FindTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fate/com/leetCode/TreeTrain/LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fate/com/leetCode/TreeTrain/LowestCommonAncestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetCode/EveryDay/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetCode/EveryDay/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,13 +131,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -403,6 +403,7 @@
       <workItem from="1621261285450" duration="2630000" />
       <workItem from="1621327024682" duration="2421000" />
       <workItem from="1621349789044" duration="913000" />
+      <workItem from="1621434173200" duration="2346000" />
     </task>
     <servers />
   </component>
