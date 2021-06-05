@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/StringTrain/TruncateSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/FindSecondMinimumValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/IsCousins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,13 +132,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -408,6 +411,12 @@
       <workItem from="1621922394728" duration="430000" />
       <workItem from="1622031139757" duration="2095000" />
       <workItem from="1622116487729" duration="2651000" />
+      <workItem from="1622164612492" duration="682000" />
+      <workItem from="1622201848467" duration="4417000" />
+      <workItem from="1622364350125" duration="1835000" />
+      <workItem from="1622426472719" duration="620000" />
+      <workItem from="1622811026465" duration="3722000" />
+      <workItem from="1622878405035" duration="2522000" />
     </task>
     <servers />
   </component>
