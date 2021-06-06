@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/TreeTrain/IsCousins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/SearchInsert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +64,7 @@
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumRootToLeaf">
-    <configuration name="CountdownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.CountdownLatchTest" />
-      <module name="Fate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SearchInsert">
     <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter10.Outer" />
       <module name="Fate" />
@@ -99,6 +84,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.thinkInJava.chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetCode.ArrayTrain.SearchInsert" />
+      <module name="Fate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetCode.ArrayTrain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,33 +130,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountdownLatchTest" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Outer" />
       <item itemvalue="Application.Outer2" />
       <item itemvalue="Application.SumRootToLeaf" />
+      <item itemvalue="Application.SearchInsert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInsert" />
         <item itemvalue="Application.SumRootToLeaf" />
         <item itemvalue="Application.Outer2" />
         <item itemvalue="Application.Outer" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CountdownLatchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -417,6 +413,7 @@
       <workItem from="1622426472719" duration="620000" />
       <workItem from="1622811026465" duration="3722000" />
       <workItem from="1622878405035" duration="2522000" />
+      <workItem from="1622945168288" duration="817000" />
     </task>
     <servers />
   </component>
