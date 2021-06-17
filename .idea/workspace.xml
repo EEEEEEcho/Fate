@@ -5,49 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f42f44-615e-49af-afd6-4a6946e132dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo04/ChildFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo04/ChildSecond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo04/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo04/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo05/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo05/Geneator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo05/Orangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo05/Test05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo06/ProductGeneator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo06/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo07/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo07/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo07/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo07/MiniCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo07/Test07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo08/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo08/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo08/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo08/Test08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo09/Eraser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo09/EraserLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo09/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo09/InfoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo09/Test09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo10/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo10/Test10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo11/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/genericlearn/demo11/Test11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/ArrayMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/ContainsNearbyDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/GenerateYH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/GenerateYH2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/SummaryRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetCode/ArrayTrain/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reflectlearn/lesson1/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reflectlearn/lesson1/ReflectQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reflectlearn/lesson1/re.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/reflectlearn/lesson2/Reflection01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/FlyNoway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/FlyRocketPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/ModelDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/strategy/Squeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thinkInJava/chapter12/FinallyWorks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Fate/com/leetCode/ArrayTrain/SearchInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Fate/com/leetCode/ArrayTrain/SearchInsert.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tbox_project/DFAuto/IBCSource/PlatformEncryptProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,7 +62,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="jprofiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -105,13 +76,13 @@
       <recent name="H:\JavaProject\Fate\src\com\qiye" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test10">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.genericlearn.demo06.Test" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="FinallyWorks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter12.FinallyWorks" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.genericlearn.demo06.*" />
+          <option name="PATTERN" value="com.thinkInJava.chapter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.genericlearn.demo07.Test07" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.designpattern.strategy.Main" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.genericlearn.demo07.*" />
+          <option name="PATTERN" value="com.designpattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.genericlearn.demo08.Test08" />
+    <configuration name="MutipleReturns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkInJava.chapter12.MutipleReturns" />
       <module name="Fate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.genericlearn.demo08.*" />
+          <option name="PATTERN" value="com.thinkInJava.chapter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,33 +142,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test07" />
-      <item itemvalue="Application.Test08" />
       <item itemvalue="Application.Test09" />
       <item itemvalue="Application.Test10" />
+      <item itemvalue="Application.FinallyWorks" />
+      <item itemvalue="Application.MutipleReturns" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MutipleReturns" />
+        <item itemvalue="Application.FinallyWorks" />
         <item itemvalue="Application.Test10" />
         <item itemvalue="Application.Test09" />
-        <item itemvalue="Application.Test08" />
-        <item itemvalue="Application.Test07" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -465,6 +434,15 @@
       <workItem from="1623573144900" duration="1591000" />
       <workItem from="1623588633989" duration="9223000" />
       <workItem from="1623637374257" duration="4021000" />
+      <workItem from="1623719600216" duration="637000" />
+      <workItem from="1623720714044" duration="900000" />
+      <workItem from="1623741995804" duration="759000" />
+      <workItem from="1623746659018" duration="2695000" />
+      <workItem from="1623753804369" duration="1422000" />
+      <workItem from="1623815256602" duration="71000" />
+      <workItem from="1623823044371" duration="1377000" />
+      <workItem from="1623842704786" duration="1584000" />
+      <workItem from="1623943208836" duration="1689000" />
     </task>
     <servers />
   </component>
