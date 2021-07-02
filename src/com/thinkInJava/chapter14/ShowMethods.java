@@ -11,6 +11,8 @@ public class ShowMethods {
             "To show all methods in class or:\n" +
             "ShowMethods qualified.class.name word\n" +
             "To search for methods involving 'word'";
+    //public static void com.thinkInJava.chapter14.ShowMethods.main(java.lang.String[])
+    //这个正则是为了把形如com.thinkInJava.chapter14.ShowMethods.  java.lang.的字符串替换掉的
     private static Pattern pattern = Pattern.compile("\\w+\\.");
 
     public static void main(String[] args) {
@@ -20,11 +22,12 @@ public class ShowMethods {
         }
         int lines = 0;
         try {
-            Class<?> c = Class.forName(args[0]);//运行时提取
+            Class<?> c= Class.forName(args[0]);
             Method[] methods = c.getMethods();
             Constructor[] constructors = c.getConstructors();
             if(args.length  == 1){
                 for(Method method : methods){
+                    System.out.println(method);
                     System.out.println(pattern.matcher(method.toString()).replaceAll(""));
                 }
                 for (Constructor constructor : constructors){

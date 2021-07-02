@@ -47,8 +47,5 @@ public class SimpleProxyDemo {
     public static void main(String[] args) {
         consumer(new RealObject());
         consumer(new SimpleProxy(new RealObject()));
-        String s = "1,2,3";
-        String[] split = s.split(",");
-        System.out.println(Arrays.asList(split));
     }
 }
