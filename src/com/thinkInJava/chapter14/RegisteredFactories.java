@@ -35,6 +35,10 @@ class Filter extends Part{
 
 }
 class FuelFilter extends Filter{
+    //静态内部类，该内部类是一个工厂，该工厂实现了定义的工厂基类，
+    //工厂中定义了一个方法，该方法返回外部类的一个对象
+
+
     public static class Factory implements com.thinkInJava.chapter14.Factory<FuelFilter>{
         public FuelFilter create(){
             return new FuelFilter();
