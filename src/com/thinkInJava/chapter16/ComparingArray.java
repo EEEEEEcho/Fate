@@ -11,6 +11,9 @@ public class ComparingArray {
         System.out.println(Arrays.equals(a1,a2));
         a2[3] = 11;
         System.out.println(Arrays.equals(a1,a2));
+        /**
+         * 只要满足数组长度相同，且对应位置的元素也相同即相等
+         */
         String[] s1 = new String[2];
         Arrays.fill(s1,"hi");
         String[] s2 = new String[]{

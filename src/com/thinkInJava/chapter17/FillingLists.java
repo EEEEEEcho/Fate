@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class StringAdderss{
+class StringAddress {
     private String s;
-    public StringAdderss(String s){
+    public StringAddress(String s){
         this.s = s;
     }
 
@@ -17,13 +17,13 @@ class StringAdderss{
 }
 public class FillingLists {
     public static void main(String[] args) {
-        List<StringAdderss> list = new ArrayList<StringAdderss>(
+        List<StringAddress> list = new ArrayList<StringAddress>(
                 //放四个相同的StringAddress到List中
-                Collections.nCopies(4,new StringAdderss("Hello"))
+                Collections.nCopies(4,new StringAddress("Hello"))
         );
         System.out.println(list);
         //重新放相同的StringAddress到List中，也是四个了就
-        Collections.fill(list,new StringAdderss("World"));
+        Collections.fill(list,new StringAddress("World"));
         System.out.println(list);
     }
 }
