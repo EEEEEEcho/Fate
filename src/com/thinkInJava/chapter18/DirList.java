@@ -17,8 +17,8 @@ public class DirList {
         }
         assert list != null;
         Arrays.sort(list,String.CASE_INSENSITIVE_ORDER);
-        for(String diename: list){
-            System.out.println(diename);
+        for(String dirname: list){
+            System.out.println(dirname);
         }
     }
 }
