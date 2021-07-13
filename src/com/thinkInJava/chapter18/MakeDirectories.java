@@ -32,43 +32,44 @@ public class MakeDirectories {
     }
 
     public static void main(String[] args) {
-        if(args.length < 1){
-            usage();
-        }
-        if(args[0].equals("-r")){
-            if(args.length != 3){
-                usage();
-            }
-            File old = new File(args[1]);
-            File rname = new File(args[2]);
-            old.renameTo(rname);
-            fileData(old);
-            fileData(rname);
-            return;
-        }
-        int count = 0;
-        boolean delete = false;
-        if(args[0].equals("-d")){
-            count ++;
-            delete = true;
-        }
-        count --;
-        while (++count < args.length){
-            File f = new File(args[count]);
-            if(f.exists()){
-                System.out.println(f + "exist");
-                if (delete){
-                    System.out.println("deleting file ...." + f);
-                    f.delete();
-                }
-            }
-            else{
-                if(!delete){
-                    f.mkdirs();
-                    System.out.println("created " + f);
-                }
-            }
-            fileData(f);
-        }
+        fileData(new File("F:\\OriginGame\\Apex"));
+//        if(args.length < 1){
+//            usage();
+//        }
+//        if(args[0].equals("-r")){
+//            if(args.length != 3){
+//                usage();
+//            }
+//            File old = new File(args[1]);
+//            File rname = new File(args[2]);
+//            old.renameTo(rname);
+//            fileData(old);
+//            fileData(rname);
+//            return;
+//        }
+//        int count = 0;
+//        boolean delete = false;
+//        if(args[0].equals("-d")){
+//            count ++;
+//            delete = true;
+//        }
+//        count --;
+//        while (++count < args.length){
+//            File f = new File(args[count]);
+//            if(f.exists()){
+//                System.out.println(f + "exist");
+//                if (delete){
+//                    System.out.println("deleting file ...." + f);
+//                    f.delete();
+//                }
+//            }
+//            else{
+//                if(!delete){
+//                    f.mkdirs();
+//                    System.out.println("created " + f);
+//                }
+//            }
+//            fileData(f);
+//        }
     }
 }
