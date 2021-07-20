@@ -1,0 +1,24 @@
+1: package com.thinkInJava.chapter18;
+2: 
+3: import java.io.BufferedReader;
+4: import java.io.IOException;
+5: import java.io.PrintWriter;
+6: import java.io.StringReader;
+7: 
+8: public class FileOutputShortCut {
+9:     static String inputFile = "G:\\Fate\\src\\com\\thinkInJava\\chapter18\\FileOutputShortCut.java";
+10:     static String outputFile = "G:\\Fate\\FileOutputShortCut.txt";
+11:     public static void main(String[] args) throws IOException {
+12:         StringReader stringReader = new StringReader(BufferedInputFile.read(inputFile));
+13:         BufferedReader bufferedReader = new BufferedReader(stringReader);
+14:         //进行改造
+15:         PrintWriter out = new PrintWriter(outputFile);
+16:         int lineCount = 1;
+17:         String s;
+18:         while ((s = bufferedReader.readLine()) != null){
+19:             out.println(lineCount++ + ": " + s);
+20:         }
+21:         out.close();
+22:         System.out.println(BufferedInputFile.read(outputFile));
+23:     }
+24: }

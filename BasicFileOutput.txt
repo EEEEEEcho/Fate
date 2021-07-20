@@ -1,0 +1,25 @@
+1 : package com.thinkInJava.chapter18;
+2 : 
+3 : import java.io.*;
+4 : 
+5 : public class BasicFileOutPut {
+6 :     static String fileOutput = "G:\\Fate\\BasicFileOutput.txt";
+7 :     static String fileInput = "G:\\Fate\\src\\com\\thinkInJava\\chapter18\\BasicFileOutPut.java";
+8 :     public static void main(String[] args) throws IOException {
+9 :         //输入流
+10 :         BufferedReader in = new BufferedReader(new StringReader(BufferedInputFile.read(fileInput)));
+11 :         //输出流
+12 :         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(fileOutput)));
+13 :         int lineCount = 1;
+14 :         String s;
+15 :         while ((s = in.readLine()) != null){
+16 :             /**
+17 :              * 既写入文件，也打印，该程序执行完后，该源代码的每一行前面都会加上行号
+18 :              */
+19 :             out.println(lineCount++ + " : " + s);
+20 :         }
+21 :         out.close();
+22 :         System.out.println(BufferedInputFile.read(fileOutput));
+23 : 
+24 :     }
+25 : }

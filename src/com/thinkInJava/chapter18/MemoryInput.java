@@ -12,7 +12,7 @@ public class MemoryInput {
         StringReader in = new StringReader(BufferedInputFile.read("G:\\Fate\\src\\com\\thinkInJava\\chapter18\\MemoryInput.java"));
         int c;
         while ((c = in.read()) != -1){
-            System.out.println((char)c);
+            System.out.print((char)c);
         }
     }
 }

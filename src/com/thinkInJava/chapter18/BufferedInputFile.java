@@ -36,6 +36,6 @@ public class BufferedInputFile {
     }
 
     public static void main(String[] args) throws IOException{
-        System.out.println(read("BufferedInputFile.java"));
+        System.out.println(read("G:\\Fate\\src\\com\\thinkInJava\\chapter18\\BufferedInputFile.java"));
     }
 }
