@@ -6,23 +6,23 @@ import java.util.Collections;
 import java.util.List;
 
 public class UseCaseTracker {
-    public static void trackUseCase(List<Integer> useCases,Class<?> cl){
-        for(Method m : cl.getDeclaredMethods()){
-            UseCase uc = m.getAnnotation(UseCase.class);    //通过反射获取方法上的注解,返回指定类型的注解对象，这里就是UseCase
-            if(uc != null){
-                //id 和 description都是注解中定义的方法，
-                System.out.println("Found Use Case:" + uc.id() + " " + uc.description());
-                useCases.remove(new Integer(uc.id()));
+    public static void trackUseCases(List<Integer> useCases,Class<?> cl){
+        Method[] declaredMethods = cl.getDeclaredMethods();
+        for (Method m : declaredMethods){
+            UseCase useCase = m.getAnnotation(UseCase.class);
+            if (useCase != null){
+                System.out.println("Found Use Case:" + useCase.id() + " " + useCase.description());
+                useCases.remove(new Integer(useCase.id()));
             }
         }
-        for(int i: useCases){
-            System.out.println("Warning : Missing use case-" + i);
+        for (int i : useCases){
+            System.out.println("Waring : Missing use case -" + i);
         }
     }
 
     public static void main(String[] args) {
-        List<Integer> useCases = new ArrayList<Integer>();
+        List<Integer> useCases = new ArrayList<>();
         Collections.addAll(useCases,47,48,49,50);
-        trackUseCase(useCases,PasswordUtils.class);
+        trackUseCases(useCases,PasswordUtils.class);
     }
 }
