@@ -4,7 +4,10 @@ import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.EOFException;
 import java.io.IOException;
+<<<<<<< HEAD
 import java.nio.charset.StandardCharsets;
+=======
+>>>>>>> 0a3bd63289606aa1d11bb5719d7de5bebb6fd4b6
 
 public class FormattedMemoryInput {
     /**
@@ -21,7 +24,11 @@ public class FormattedMemoryInput {
                     ).getBytes())
             );
             while (true){
+<<<<<<< HEAD
                 System.out.print((char)in.readByte());
+=======
+                System.out.println((char)in.readByte());
+>>>>>>> 0a3bd63289606aa1d11bb5719d7de5bebb6fd4b6
             }
         }
         catch (EOFException e){

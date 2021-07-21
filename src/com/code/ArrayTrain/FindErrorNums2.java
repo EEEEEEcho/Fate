@@ -1,5 +1,6 @@
 package com.code.ArrayTrain;
 
+<<<<<<< HEAD
 
 import java.util.*;
 
@@ -34,5 +35,10 @@ public class FindErrorNums2 {
         return result;
     }
     public static void main(String[] args) {
+=======
+public class FindErrorNums2 {
+    public int[] findErrorNums(int[] nums) {
+        return null;
+>>>>>>> 0a3bd63289606aa1d11bb5719d7de5bebb6fd4b6
     }
 }
