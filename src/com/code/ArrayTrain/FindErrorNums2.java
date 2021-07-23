@@ -1,7 +1,5 @@
 package com.code.ArrayTrain;
 
-<<<<<<< HEAD
-
 import java.util.*;
 
 public class FindErrorNums2 {
@@ -33,12 +31,5 @@ public class FindErrorNums2 {
         result[0] = Arrays.stream(nums).sum() - Arrays.stream(nums).distinct().sum();
         result[1] = (1 + nums.length) * nums.length / 2 - Arrays.stream(nums).distinct().sum();
         return result;
-    }
-    public static void main(String[] args) {
-=======
-public class FindErrorNums2 {
-    public int[] findErrorNums(int[] nums) {
-        return null;
->>>>>>> 0a3bd63289606aa1d11bb5719d7de5bebb6fd4b6
     }
 }

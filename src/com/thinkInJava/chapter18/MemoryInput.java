@@ -12,11 +12,8 @@ public class MemoryInput {
         StringReader in = new StringReader(BufferedInputFile.read("G:\\Fate\\src\\com\\thinkInJava\\chapter18\\MemoryInput.java"));
         int c;
         while ((c = in.read()) != -1){
-<<<<<<< HEAD
             System.out.print((char)c);
-=======
             System.out.println((char)c);
->>>>>>> 0a3bd63289606aa1d11bb5719d7de5bebb6fd4b6
         }
     }
 }
