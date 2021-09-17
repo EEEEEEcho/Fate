@@ -1,15 +1,18 @@
 package com.code.ArrayTrain;
 
+import java.util.Arrays;
+
 public class ValidMountainArray {
     public boolean validMountainArray(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i + 1] < arr[i]){
-                for (int j = i; j < arr.length - 1; j++) {
-                    if (arr[j + 1] < arr[j]){
-                        return true;
-                    }
-                }
+        int max = Arrays.stream(arr).max().getAsInt();
+        int maxIndex = -1;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == max){
+                maxIndex = i;
             }
+        }
+        if (maxIndex >0 && maxIndex < arr.length && arr[maxIndex - 1] < max && arr[maxIndex + 1] < max){
+            return true;
         }
         return false;
     }
