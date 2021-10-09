@@ -8,7 +8,7 @@ import java.util.HashSet;
  * abcabcbb
  */
 public class LengthOfLongestSubstring {
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring2(String s) {
         if(s.length() <= 1){
             return s.length();
         }
@@ -25,5 +25,39 @@ public class LengthOfLongestSubstring {
             map.put(c,i);
         }
         return max;
+    }
+    public int lengthOfLongestSubstring(String s) {
+        if(s.length() <= 1){
+            return s.length();
+        }
+        int start = 0;
+        int end = 1;
+        int max = end - start;
+        HashMap<Character,Integer> map = new HashMap<>();
+        map.put(s.charAt(start),start);
+
+        while (end < s.length()){
+            if(map.get(s.charAt(end)) == null){
+                map.put(s.charAt(end),end);
+            }
+            else{
+                max = Math.max(end - start,max);
+                start  = map.get(s.charAt(end)) + 1;
+                map.put(s.charAt(end),end);
+                //map.clear();
+                //map.put(s.charAt(start),start);
+            }
+            end ++;
+            if (end == s.length()){
+                max = Math.max(end - start,max);
+            }
+        }
+        return max;
+    }
+
+    public static void main(String[] args) {
+        LengthOfLongestSubstring l = new LengthOfLongestSubstring();
+        int x = l.lengthOfLongestSubstring("abcabcbb");
+        System.out.println(x);
     }
 }
