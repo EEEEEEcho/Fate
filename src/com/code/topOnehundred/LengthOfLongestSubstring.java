@@ -2,9 +2,17 @@ package com.code.topOnehundred;
 
 import java.util.HashMap;
 import java.util.HashSet;
+<<<<<<< HEAD
 import java.util.Map;
 import java.util.Set;
 
+=======
+
+/**
+ * 滑动窗口，这道题没做出来，主要出问题在去重的地方
+ * abcabcbb
+ */
+>>>>>>> 6a8ebacda1fd92262e0913a4699f648cc96b14b0
 public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring2(String s) {
         if(s.length() <= 1){
