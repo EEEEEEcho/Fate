@@ -1,6 +1,11 @@
 package com.code.backtracing;
 
-import java.util.*;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
+
 
 public class Permute {
     /**
@@ -16,7 +21,7 @@ public class Permute {
     }
 
 
-    public void dfs1(int[] nums, int[] mark,Deque<Integer> deque,int markIndex,List<List<Integer>> ans){
+    public void dfs1(int[] nums, int[] mark, Deque<Integer> deque, int markIndex, List<List<Integer>> ans){
         if (deque.size() == nums.length){
             ans.add(new ArrayList<>(deque));
             mark[markIndex] = 0;
