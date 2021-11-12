@@ -4,7 +4,6 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.logging.Logger;
 
-import static jdk.nashorn.internal.objects.NativeError.printStackTrace;
 
 class LoggingExceptions extends Exception{
     private static Logger logger = Logger.getLogger("LoggingException");
