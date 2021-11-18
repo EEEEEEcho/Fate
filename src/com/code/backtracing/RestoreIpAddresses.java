@@ -1,43 +1,68 @@
 package com.code.backtracing;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.List;
-
 public class RestoreIpAddresses {
-    private List<String> result = new ArrayList<>();
+    private final List<String> result = new ArrayList<>();
     public List<String> restoreIpAddresses(String s) {
-        dfs(s,0,new ArrayDeque<>());
+        if (s.length() <= 12){
+            dfs(s,0,0);
+        }
         return result;
     }
-    public void dfs(String s, int start, Deque<String> deque){
-        if (start == s.length() && deque.size() == 4){
-            result.add(String.join(".",deque));
+
+    /*
+     * @param s 要分割的字符串
+     * @param startIndex 开始分割的位置
+     * @param pointNum 已经分割的字符串中 . 的数量
+     */
+    public void dfs(String s,int startIndex,int pointNum){
+        if (pointNum == 3){
+            if (isValid(s,startIndex,s.length() - 1)){
+                result.add(s);
+            }
+            return;
         }
         else{
-            for (int i = start; i < s.length(); i++) {
-                if(i - start > 3){
-                    break;
+            for (int i = startIndex; i < s.length(); i++) {
+                if (isValid(s,startIndex,i)){
+                    //这道题并没有中间结果，而是直接在原来的字符串上进行操作
+                    s = s.substring(0,i + 1) + "." + s.substring(i + 1);
+                    pointNum ++;
+                    dfs(s,i + 2,pointNum);
+                    //回溯
+                    pointNum --;
+                    s = s.substring(0,i + 1) + s.substring(i + 2);
                 }
-                if(isRight(s,start,i)){
-                    deque.add(s.substring(start,1));
-                    dfs(s,i + 1,deque);
-                    deque.removeLast();
+                else {
+                    break;
                 }
             }
         }
     }
-    private boolean isRight(String s,int start,int end){
-        if (start == end){
+
+    public boolean isValid(String s,int start,int end){
+        if (start > end){
             return false;
         }
-        int i = Integer.parseInt(s.substring(start, end));
-        return (i >=1 && i <= 255);
+        if(s.charAt(start) == '0' && start != end){
+            return false;
+        }
+        int num = 0;
+        for (int i = start; i <=end ; i++) {
+            //非数字字符非法
+            if (s.charAt(i) > '9' || s.charAt(i) < '0'){
+                return false;
+            }
+            num = num * 10 + (s.charAt(i) - '0');
+            if (num > 255){
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
         RestoreIpAddresses r = new RestoreIpAddresses();
-        r.restoreIpAddresses("25525511135");
+        List<String> strings = r.restoreIpAddresses("25525511135");
+        System.out.println(strings);
     }
 }

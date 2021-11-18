@@ -1,7 +1,5 @@
 package com.thinkInJava.chapter18;
 
-import sun.dc.pr.PRError;
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.nio.ByteBuffer;
