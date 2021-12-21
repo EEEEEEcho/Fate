@@ -16,6 +16,7 @@ public class AdvantageCount {
 //
 //        }
 //        priorityQueue.poll()
+        return null;
 
     }
 
