@@ -28,5 +28,6 @@ public class Test {
         stack.pop();
         //System.out.println(stack.pop());
         System.out.println(stack.size());
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 }
