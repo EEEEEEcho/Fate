@@ -10,9 +10,11 @@
 
   trainsient关键字修饰的变量不会被序列化。
 
-- 当创建ArrayList对象时，如果使用的是无参构造器，则初始elementData容量为0，第1次添加时，扩容elementData为10，如果需要再次扩容，则扩容elementData当前容量的1.5倍。10个元素的1.5倍也就是15。
+- 当创建ArrayList对象时，如果使用的是无参构造器，则初始elementData容量为0，第1次添加时，扩容elementData为10，如果需要再次扩容，则扩容elementData当前容量的1.5倍。10个元素的1.5倍也就是15。**而且每次扩容，都是创建一个新的数组对象，该数组容量是扩容后的容量，将原数组中的内容使用System.arrayCopy复制到新数组中。**
 
 - 如果使用的是指定大小的构造器，则初始elementData容量为指定大小，如需扩容，则直接扩容为elementData的1.5倍。例如：初始化容量为8，添加满8个之后，按照8 * 1.5 = 12 个扩容。
+
+- add(i) 如果i是个基本数据类型，那么要进行一次装箱操作，将其变为包装类型，而且i的值如果在相应的包装类缓存池中，则会从缓存池中取
 
 - ![image-20220116193942533](underlying.assets/image-20220116193942533.png)
 
@@ -112,11 +114,15 @@ public boolean remove(Object o) {
     return false;
 }
 private void fastRemove(int index) {
+    //参数是要移除的对象的下标、
+    
     modCount++;
     int numMoved = size - index - 1;
+    //然后从下标开始，整体将元素向前移动一位
     if (numMoved > 0)
         System.arraycopy(elementData, index+1, elementData, index,
                          numMoved);
+    //然后将最后一个元素设置为null进行GC
     elementData[--size] = null; // clear to let GC do its work
 }
 ```
@@ -425,7 +431,7 @@ private void fastRemove(int index) {
            *     //根据由key得到hash值，计算该key应该存放到hash表的哪个位置。并把这个位置的对象，赋值给p
            *     //并判断p是否为空
        *         if ((p = tab[i = (n - 1) & hash]) == null)
-           *         //如果p为空，那么证明该位置没有存放元素，就创建一个Node,将hash(key),key,固定的值PRESENT,以及next传入
+           *         //如果p为空，那么证明该位置没有存放元素，就将这个桶头初始化,将hash(key),key,固定的值PRESENT,以及next传入
        *             tab[i] = newNode(hash, key, value, null);
        *         else {
        *             Node<K,V> e; K k;
@@ -624,7 +630,7 @@ private void fastRemove(int index) {
        *                 e = ((TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
        *             else {
            *         //如果上述条件也不满足，因为p指向的是头节点，从头节点开始往后依次遍历，如果找到元素已经存在了，就不添加
-           *         //否则就将新元素添加到链表的最尾部。
+           *         //否则就将新元素添加到链表的最尾部。先添加元素，再进行树化判断
            *         //如果添加后，链表的长度 >= 阈值 8，就将当前的这条链表，进行红黑树变换。注意，在进行红黑树变换时，还需要
            *         //判断hash表的长度是否超过了最大阈值64，如果没有超过，只是进行扩容操作，而不是树化操作，它认为扩容操作也
            *         //可以解决hash碰撞。
@@ -855,11 +861,11 @@ private void fastRemove(int index) {
        *     }
            * //5.执行resize()方法
            * final Node<K,V>[] resize() {
-           *     //创建一个临时遍历oldTab指向table
+           *     //创建一个临时变量oldTab指向table
        *         Node<K,V>[] oldTab = table;
            *     //记录table原来的长度，如果table为空，则置为0，否则获取原来的table长度
        *         int oldCap = (oldTab == null) ? 0 : oldTab.length;
-           *     //创建一个临时遍历oldThr，值为原来的threshold
+           *     //创建一个临时变量oldThr，值为原来的threshold
        *         int oldThr = threshold;
        *         int newCap, newThr = 0;
        *         if (oldCap > 0) {
