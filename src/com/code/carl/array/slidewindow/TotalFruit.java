@@ -82,9 +82,30 @@ public class TotalFruit {
         }
         return max;
     }
+
+    public int totalFruit2(int[] fruits) {
+        int left = 0;
+        int right = 0;
+        int ans = 0;
+        HashMap<Integer,Integer> window = new HashMap<>();
+        while (right < fruits.length){
+            window.put(fruits[right],window.getOrDefault(fruits[right],0) + 1);
+            right ++;
+            //超过两种水果的时候收缩
+            while (window.size() >= 3){
+                window.put(fruits[left],window.get(fruits[left]) - 1);
+                if (window.get(fruits[left]) == 0){
+                    window.remove(fruits[left]);
+                }
+                left ++;
+            }
+            ans = Math.max(ans,right - left);
+        }
+        return ans;
+    }
     public static void main(String[] args) {
         TotalFruit t = new TotalFruit();
-        int i = t.totalFruit(new int[]{3,3,3,1,2,1,1,2,3,3,4});
+        int i = t.totalFruit(new int[]{1,2,1});
         System.out.println(i);
     }
 }
