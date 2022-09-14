@@ -51,6 +51,47 @@ public class MinWindow {
         return len == Integer.MAX_VALUE ? "" : s.substring(start,start + len);
     }
 
+    public String minWindow2(String s, String t) {
+        int left = 0;
+        int right = 0;
+        int len = Integer.MAX_VALUE;
+        int start = 0;
+        int valid = 0;
+        HashMap<Character,Integer> window = new HashMap<>();
+        HashMap<Character,Integer> need = new HashMap<>();
+        for(char c : t.toCharArray()){
+            need.put(c,need.getOrDefault(c,0) + 1);
+        }
+        while (right < s.length()){
+            char c = s.charAt(right);
+            right ++;
+            //从匹配到t字符串开始
+            if (need.containsKey(c)){
+                window.put(c,window.getOrDefault(c,0) + 1);
+                if (window.get(c).equals(need.get(c))){
+                    valid ++;
+                }
+            }
+            //window中已经包含了t中的所有字符,尝试收缩
+            while (valid == need.size()){
+                if (right - left < len){
+                    start = left;
+                    len = right - left;
+                }
+                char r = s.charAt(left);
+                left ++;
+                if (need.containsKey(r)){
+                    if (window.get(r).equals(need.get(r))){
+                        valid --;
+                    }
+                    window.put(r,window.get(r) - 1);
+                }
+            }
+
+        }
+        return len == Integer.MAX_VALUE ? "" : s.substring(start,start + len);
+    }
+
     public static void main(String[] args) {
         MinWindow m = new MinWindow();
         m.minWindow("ADOBECODEBANC","ABC");
